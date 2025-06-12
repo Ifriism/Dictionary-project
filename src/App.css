@@ -1,10 +1,16 @@
+body {
+  background: rgba(224, 205, 224, 0.959);
+}
+
 .App .container {
   margin: 20px 0;
   padding: 30px;
 }
 
-.App h2 {
+.App .pageTitle {
   margin: 20px 0;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .App footer {

@@ -2,12 +2,18 @@ body {
   background: rgba(224, 205, 224, 0.959);
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App .container {
   margin: 20px 0;
   padding: 30px;
 }
 
 .App .pageTitle {
+  text-align: center;
   margin: 20px 0;
   font-size: 40px;
   font-weight: bold;

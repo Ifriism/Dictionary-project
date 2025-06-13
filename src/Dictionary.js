@@ -26,7 +26,7 @@ export default function Dictionary(props) {
         const apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`
         axios.get(apiUrl).then(handleResponse);
 
-        const pexelsApiKey = process.env.REACT_APP_API_KEY;
+        const pexelsApiKey = "jnCi4xOV94kKqoKqdEca2F0UdtCzGKSBfi6QrK1WhihqMjx1GYfbTSwV";
         const headers = { Authorization: ` ${pexelsApiKey}` };
         const pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
         axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);

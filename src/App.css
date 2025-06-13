@@ -1,5 +1,5 @@
 body {
-  background: rgba(224, 205, 224, 0.959);
+  background: rgba(219, 227, 231, 0.959);
 }
 
 .App {
@@ -23,4 +23,5 @@ body {
   margin: 20px 20px;
   padding-left: 10px;
   font-size: 10px;
+  text-align: center;
 }
